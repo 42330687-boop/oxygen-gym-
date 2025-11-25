@@ -1,0 +1,171 @@
+/* =================== REGISTRATION SECTION STYLES =================== */
+
+.registration-section {
+  margin: 50px 0;
+  padding: 0 20px;
+  width: 32.5%;
+}
+
+.registration-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00bfff;
+  text-shadow: 0px 0px 20px #ffffff;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+}
+
+.registration-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+/* =================== REGISTRATION PLAN CARDS =================== */
+
+.registration-plan {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.registration-plan:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px #00bfff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #00bfff;
+}
+
+.plan-duration {
+  color: #00bfff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 10px #00bfff;
+}
+
+.plan-description {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.features-list {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.feature-included {
+  color: #00ff00;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.feature-excluded {
+  color: #ff4444;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.plan-price {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-shadow: 0px 0px 8px #ffffff;
+  background-color: rgba(0, 123, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.register-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.register-btn a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+/* =================== RESPONSIVE DESIGN =================== */
+
+@media (max-width: 992px) {
+  .registration-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .registration-plan {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .registration-plan {
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .registration-section h2 {
+    font-size: 30px;
+  }
+  
+  .plan-duration {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration-section {
+    padding: 0 10px;
+  }
+  
+  .registration-plan {
+    padding: 15px;
+  }
+  
+  .registration-section h2 {
+    font-size: 26px;
+  }
+  
+  .plan-duration {
+    font-size: 20px;
+  }
+  
+  .plan-price {
+    font-size: 18px;
+  }
+}
