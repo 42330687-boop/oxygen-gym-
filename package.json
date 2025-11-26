@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "oxygen-gym-",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://42330687-boop.github.io/oxygen-gym-/",
@@ -28,11 +28,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [
@@ -45,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
