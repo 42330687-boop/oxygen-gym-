@@ -2,7 +2,7 @@
   "name": "oxygen-gym-",
   "version": "0.1.0",
   "private": true,
- "homepage": "https://42330687-boop.github.io/oxygen-gym-/",
+  "homepage": "https://42330687-boop.github.io/oxygen-gym-/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
