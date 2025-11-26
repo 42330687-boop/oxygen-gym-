@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/oxygen-gym-/static/css/main.e3ea1fe5.css",
-    "main.js": "/oxygen-gym-/static/js/main.c8834a7a.js",
-    "static/js/787.4b4fadfb.chunk.js": "/oxygen-gym-/static/js/787.4b4fadfb.chunk.js",
+    "main.css": "/oxygen-gym-/static/css/main.93c41e73.css",
+    "main.js": "/oxygen-gym-/static/js/main.b5a8c379.js",
     "static/media/14 Dumbbell Exercises You Can Do at Home.mp4": "/oxygen-gym-/static/media/14 Dumbbell Exercises You Can Do at Home.8e93be444afa7e4e839a.mp4",
     "static/media/coach.jpeg": "/oxygen-gym-/static/media/coach.5a6b483ccf5b7d604714.jpeg",
     "static/media/karate coach.jpg": "/oxygen-gym-/static/media/karate coach.4d83ebced1d38e1cbc95.jpg",
@@ -49,12 +48,11 @@
     "static/media/istockphoto-1131430475-612x612.jpg": "/oxygen-gym-/static/media/istockphoto-1131430475-612x612.eb4cc786e57c6f538328.jpg",
     "static/media/register.avif": "/oxygen-gym-/static/media/register.a56a95e9dd70dc50f4c4.avif",
     "index.html": "/oxygen-gym-/index.html",
-    "main.e3ea1fe5.css.map": "/oxygen-gym-/static/css/main.e3ea1fe5.css.map",
-    "main.c8834a7a.js.map": "/oxygen-gym-/static/js/main.c8834a7a.js.map",
-    "787.4b4fadfb.chunk.js.map": "/oxygen-gym-/static/js/787.4b4fadfb.chunk.js.map"
+    "main.93c41e73.css.map": "/oxygen-gym-/static/css/main.93c41e73.css.map",
+    "main.b5a8c379.js.map": "/oxygen-gym-/static/js/main.b5a8c379.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3ea1fe5.css",
-    "static/js/main.c8834a7a.js"
+    "static/css/main.93c41e73.css",
+    "static/js/main.b5a8c379.js"
   ]
 }
